@@ -1,9 +1,25 @@
+
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.1em;
   color: #dedede;
+  margin: auto;
+
 }
+
 
 nav {
   background-image: linear-gradient(to right, rgb(1, 73, 73) 20%, black);
+  text-align: center;
+  padding: 20px;
+}
+
+p{
+  display: inline;
+  font-size:40px;
+  padding:20px;
+}
+
+p:hover{
+  background-color: rgb(0,128,128);
 }
