@@ -4,6 +4,22 @@ body {
   color: #555;
 }
 
+table{
+  border: 1px solid #dddddd;
+}
+th{
+  background-color: #006060;
+  color: #ffffff;
+  border: 1px solid #006060;
+
+}
+
+th td{
+  text-align: center;
+  padding: 20px;
+  
+}
+
 /* Colors used include:
       - #006060;
       - rgb alpha value of the color above
