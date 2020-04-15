@@ -1,34 +1,37 @@
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.1em;
   color: #555;
-  
 }
-
-figure{
-  display: inline-flex;
-  width: auto;
+.cat {
+  display: flex;
 }
-
-.img2{
+div {
+  padding: 15px;
+}
+.img2 {
   filter: grayscale();
-  
 }
-.img3{
+.img3 {
   filter: blur(5px);
 }
-.img4{
+.img4 {
   filter: invert(100%);
 }
-.img5{
+.img5 {
   filter: brightness(50%);
 }
-.img6{
+.img6 {
   filter: saturate(4);
 }
-.img7{
+.img7 {
   filter: sepia();
 }
-.img8{
-  filter: grayscale(100%)blur(4px);
-  
+.img8 {
+  filter: grayscale(100%) blur(4px);
+}
+@media screen and (max-width : 1000px){
+  .cat{
+    display: block;
+  }
+}
