@@ -6,8 +6,8 @@ body {
 }
 
 figure{
-  display: inline-block;
-
+  display: inline-flex;
+  width: auto;
 }
 
 .img2{
@@ -15,20 +15,20 @@ figure{
   
 }
 .img3{
-  filter: blur(3px);
+  filter: blur(5px);
 }
 .img4{
   filter: invert(100%);
 }
 .img5{
-  filter: brightness(100%);
+  filter: brightness(50%);
 }
 .img6{
-  filter: saturate(100%);
+  filter: saturate(4);
 }
 .img7{
   filter: sepia();
 }
 .img8{
-  filter: drop-shadow();
-}
+  filter: grayscale(100%)blur(4px);
+  
