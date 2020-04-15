@@ -37,6 +37,19 @@ input[type=submit]:hover{
   background-color: #013e57;
   color: #ffffff;
 }
+@media screen and (max-width : 476px)
+{
+body{
+  font-size: smaller;
+}
+}
+@media screen and (max-width : 768px){
+  body{
+    font-size: smaller;
+  }
+
+}
+
 
 
 
