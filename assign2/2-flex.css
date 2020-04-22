@@ -5,6 +5,7 @@
 }
 
 .flex-item {
+
   width: 200px;
   height: 100px;
   margin: 1px;
@@ -15,7 +16,41 @@
 }
 
 .flex-container {
+  display: flex;
   height: 400px;
+  flex-flow: column-reverse wrap;
+  
+}
+.item1{
+order: 1;
+}
+.item5{
+  order:2;
+}
+.item8{
+  order:3;
+}
+.item4{
+  order:4;
+}
+.item3{
+  order:5;
+}
+.item2{
+  order:6;
+}
+.item9{
+  order:7;
+}
+.item7{
+  order:8;
+}
+.item6{
+  order:9;
+}
+.item10{
+  order:10;
 }
 
 /* Add your code here */
+
