@@ -6,7 +6,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 90px 50px repeat(5,95px);
+  grid-template-rows: 95px 50px repeat(5,95px);
   column-gap: 10px;
   row-gap: 10px;
 }
@@ -33,7 +33,7 @@
 .grid-item {
   background-color: lightgray;
   color: black;
-  font-size: 1.5em;
+  font-size: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,23 +42,8 @@
 .blank {
   background-color: white;
 }
-@media screen and (max-width: 768px){
-  .grid-container{
-    grid-template-columns: repeat(7,1fr);
-    grid-template-rows: 70px 50px repeat(5,60px);
-    
-  }
-  .header{
-    font-size: 2.5em;
-  }
-  .week{
-    font-size: 1.5em;
-  }
-  .grid-item{
-    font-size: 1.5em;
-  }
-}
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 414px){
   .grid-container{
    grid-template-columns: repeat(7,1fr);
     grid-template-rows: 60px 20px repeat(5,35px);
