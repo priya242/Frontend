@@ -50,10 +50,10 @@
     display: none;
   }
   .item4 {
-    grid-area: 1 /4 /2 /5;
+    grid-area: 1 / 4 / 2 /5;
   }
   .item6 {
-    grid-area: 2 /3 /4 /4;
+    grid-area: 2 / 3 / 4 /4;
   }
   .item9 {
     grid-area: 2 /4 /4 /5;
