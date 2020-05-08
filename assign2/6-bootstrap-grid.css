@@ -10,3 +10,18 @@
 }
 
 /* Add your code here */
+.col-lg-8 {
+  background-color: purple;
+}
+.col-md-6.col-lg-4{
+  background-color: purple;
+}
+.col-sm-4{
+  background-color: green;
+}
+.col-sm-2{
+  background-color: orange;
+}
+.col-3.col-lg-4{
+  background-color: teal;
+}

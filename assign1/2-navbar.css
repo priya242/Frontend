@@ -1,9 +1,36 @@
+
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.1em;
   color: #dedede;
+  margin: auto;
 }
 
 nav {
   background-image: linear-gradient(to right, rgb(1, 73, 73) 20%, black);
+  text-align: center;
+  padding: 20px;
+}
+
+dl{
+  display: inline;
+  font-size:40px;
+  padding:20px;
+}
+
+dl:hover{
+  background-color: rgb(0,128,128);
+}
+
+@media screen and (max-width : 600px){
+  nav {
+    width: 100%;
+    padding : 0px;
+  }
+  dl
+  {
+  display: inline-block;
+    width: 100%;
+    margin:0px;
+  }
 }

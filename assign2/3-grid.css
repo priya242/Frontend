@@ -12,3 +12,26 @@
 }
 
 /* Add your code here */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 100px);
+  column-gap: 1px;
+  row-gap: 1px;
+}
+.item10 {
+  grid-area: 1 / 1 / 4 / 4;
+}
+.item2 {
+  grid-area: 1 / 5 / 3 / 6;
+}
+.item4 {
+  grid-area: 3 / 4 / 4 / 6;
+}
+.item6 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.item9 {
+  grid-area: 5 / 1 / 6 / 6;
+}
