@@ -1,1 +1,61 @@
 /* add your previous css styles for the form here  */
+body {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #013e57;
+  }
+  .container {
+    background-color: #ffffff;
+    padding: 15px;
+    max-width: 450px;
+    margin-top: 2%;
+    margin-left: 33%;
+  }
+  h2 {
+    text-align: center;
+    color: #0173a0;
+  }
+  span {
+    color: gray;
+  }
+  input[type="text"],
+  [type="email"],
+  select {
+    width: 100%;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
+  label {
+    font-weight: bold;
+  }
+  textarea#comment {
+    margin-bottom: 35px;
+    box-sizing: border-box; 
+    width: 100%;
+  }
+  
+  input#button {
+    padding: 15px;
+    border: 1px solid gray;
+    width: 222px;
+    margin-bottom: 25px;
+  }
+  input[type="submit"] {
+    background-color: #013e57;
+    color: #ffffff;
+  }
+  input[type="submit"]:hover {
+    background-color: #2a8bb1;
+    color: #000000;
+  }
+  @media screen and (max-width: 476px) {
+    body {
+      font-size: smaller;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: smaller;
+    }
+  }
+  

@@ -8,8 +8,47 @@
     <title>JavaScript Form Exercise</title>
   </head>
   <body>
-    <h3>Step 1 - insert your previous form here</h3>
-    <h3>Step 2 - address any responsiveness and/or accessibility issues</h3>
+    <div class = "container">
+      <h2>INTRO SURVEY</h2>
+      <form>
+        <label for="name">Name</label>
+        <span>(required)</span>
+        <br>
+        <input type ="text" id = "name" name = "name" required><br>
+        <label for="email">Email</label>
+        <span>(required)</span>
+        <br>
+        <input type ="email" id = "email" name = "email" required><br>
+        <label for = "registration">Registration Status :</label> <br>
+        <select id ="registration" name = "registration">
+          <option value = "Registered">Registered</option>
+          <option value = "waitlist">Waitlist</option>
+          <option value = "other">Other</option>
+        </select> <br>
+        <br>
+        <label for="section"  >Class Section :</label>
+          <br>
+        <input type = "radio" id = "CS410P" name = "section" value = "CS410P">
+        CS 410P 
+        <input type = "radio" id = "CS510" name = "section" value = "CS510">
+        CS 510<br>
+          <br>
+        <label for="courses?">Have you taken any of the following courses?</label> <br>
+        <br>
+        <input type = "checkbox" id = "course1" value ="programminglanguages" > 
+        Programming languages <br>
+        <input type = "checkbox" id = "course2" value ="operatingsystems" > 
+        Operating Systems<br>
+        <input type = "checkbox" id = "course3" value ="fullstack" > 
+        Full Stack Web Development <br>
+        <br>
+        <label for="comment">Anything else? </label> <br>
+        <textarea id ="comment" rows = "5" cols ="71" name = "comment"></textarea> <br>
+        <input type="submit" onclick="myForm()" value="Submit" id ="button">
+        <input type="reset" value="Reset" id = "button">  
+        </select>
+      </form>
+    </div>
     <script src="1-form.js"></script>
   </body>
 </html>
