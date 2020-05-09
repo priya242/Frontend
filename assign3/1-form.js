@@ -19,16 +19,20 @@ else
 var x = document.getElementById("course1");
 var y = document.getElementById("course2");
 var z = document.getElementById("course3");
+var checkString = "";
 if (x.checked == true){
-    console.log("courses:",x.value)
+    checkString = x.value;
 }
 if(y.checked == true)
 {
-    console.log("courses:",y.value)
+    checkString = checkString != "" ? checkString + ", " : checkString;
+    checkString = checkString + y.value;
 }
 if(z.checked == true)
 {
-    console.log("courses:",z.value)
+    checkString = checkString != "" ? checkString + ", " : checkString;
+    checkString = checkString + z.value;
 }
+console.log("courses:",checkString)
 console.log("class goals:",document.getElementById("comment").value)
 }
