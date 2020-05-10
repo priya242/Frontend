@@ -1,10 +1,10 @@
 // Enter your code here
 var interval = document.getElementById("interval");
-var start = setInterval(bg,interval.value * 1000);
+var start = setInterval(bg, interval.value * 1000);
 
 function bg() {
-    var randomColor = Math.floor(Math.random() * 16777215).toString(16);
-    document.body.style.backgroundColor = "#" + randomColor;
+  var randomColor = Math.floor(Math.random() * 16777215).toString(16);
+  document.body.style.backgroundColor = "#" + randomColor;
 }
 
 function toggle() {
@@ -14,12 +14,11 @@ function toggle() {
     element.classList.add("btn-primary");
     element.setAttribute("value", "Start");
     interval.disabled = false;
-    clearInterval(start);   
-  } 
-  else {
+    clearInterval(start);
+  } else {
     element.classList.remove("btn-primary");
     element.classList.add("btn-danger");
     element.setAttribute("value", "Stop");
-    start = setInterval(bg,interval.value * 1000)
+    start = setInterval(bg, interval.value * 1000);
   }
 }
