@@ -10,7 +10,7 @@
   <body>
     <div class = "container">
       <h2>INTRO SURVEY</h2>
-      <form>
+      <form onsubmit = "myForm();return false">
         <label for="name">Name</label>
         <span>(required)</span>
         <br>
@@ -44,7 +44,7 @@
         <br>
         <label for="comment">Anything else? </label> <br>
         <textarea id ="comment" rows = "5" cols ="71" name = "comment"></textarea> <br>
-        <input type="submit" onclick="myForm()" value="Submit" id ="button">
+        <input type="submit" value="Submit" id ="button">
         <input type="reset" value="Reset" id = "button">  
         </select>
       </form>
