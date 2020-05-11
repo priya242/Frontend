@@ -11,29 +11,42 @@
     <div class = "container">
       <h2>INTRO SURVEY</h2>
       <form onsubmit = "myForm();return false">
-        <label for="name">Name</label>
-        <span>(required)</span>
+        <label for="name">
+          Name
+        <span>
+          (required)
+        </span>
         <br>
         <input type ="text" id = "name" name = "name" required><br>
-        <label for="email">Email</label>
-        <span>(required)</span>
+      </label>
+        <label for="email">
+          Email
+        <span>
+          (required)
+        </span>
         <br>
         <input type ="email" id = "email" name = "email" required><br>
-        <label for = "registration">Registration Status :</label> <br>
+      </label>
+        <label for = "registration">
+          Registration Status : 
+          <br>
         <select id ="registration" name = "registration">
           <option value = "Registered">Registered</option>
           <option value = "waitlist">Waitlist</option>
           <option value = "other">Other</option>
-        </select> <br>
+        </select> 
+      </label>
         <br>
-        <label for="section"  >Class Section :</label>
+        <br>
+        <label for = "class section"> Class Section :</label>
+          <br>
           <br>
         <input type = "radio" id = "CS410P" name = "section" value = "CS410P">
         CS 410P 
         <input type = "radio" id = "CS510" name = "section" value = "CS510">
-        CS 510<br>
+        CS 510 
           <br>
-        <label for="courses?">Have you taken any of the following courses?</label> <br>
+        <label for="courses?">Have you taken any of the following courses? </label><br>
         <br>
         <input type = "checkbox" id = "course1" value ="programminglanguages" > 
         Programming languages <br>
@@ -42,11 +55,11 @@
         <input type = "checkbox" id = "course3" value ="fullstack" > 
         Full Stack Web Development <br>
         <br>
-        <label for="comment">Anything else? </label> <br>
+        <label for="comment">Anything else? <br>
         <textarea id ="comment" rows = "5" cols ="71" name = "comment"></textarea> <br>
+      </label> 
         <input type="submit" value="Submit" id ="button">
         <input type="reset" value="Reset" id = "button">  
-        </select>
       </form>
     </div>
     <script src="1-form.js"></script>

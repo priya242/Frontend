@@ -28,6 +28,9 @@ body {
   label {
     font-weight: bold;
   }
+  span{
+    font-weight: lighter;
+  }
   textarea#comment {
     margin-bottom: 35px;
     box-sizing: border-box; 
