@@ -40,11 +40,11 @@ var myChart = new Chart(chart, {
   },
   options: {
     legend: {
-        display: true,
-        position: 'bottom'
-        //text: 'Custom Chart Title'
-    }
-}
+      display: true,
+      position: "bottom",
+      //text: 'Custom Chart Title'
+    },
+  },
 });
 
 // Colors used :
